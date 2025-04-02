@@ -1,17 +1,6 @@
 # syncthing
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/syncthing)
-[![General Workflow](https://github.com/rolehippie/syncthing/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/syncthing/actions/workflows/general.yml)
-[![Readme Workflow](https://github.com/rolehippie/syncthing/actions/workflows/docs.yml/badge.svg)](https://github.com/rolehippie/syncthing/actions/workflows/docs.yml)
-[![Galaxy Workflow](https://github.com/rolehippie/syncthing/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/syncthing/actions/workflows/galaxy.yml)
-[![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/syncthing)](https://github.com/rolehippie/syncthing/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/role-rolehippie.syncthing-blue)](https://galaxy.ansible.com/rolehippie/syncthing)
-
-Ansible role to install and configure syncthing.
-
-## Sponsor
-
-Building and improving this Ansible role have been sponsored by my current and previous employers like **[Cloudpunks GmbH](https://cloudpunks.de)** and **[Proact Deutschland GmbH](https://www.proact.eu)**.
+Ansible role to install and configure syncthing. Fork of rolehippie/syncthing
 
 ## Table of content
 
@@ -117,6 +106,6 @@ syncthing_keyring: /usr/share/keyrings/syncthing-archive-keyring.gpg
 
 Apache-2.0
 
-## Author
-
-[Thomas Boerger](https://github.com/tboerger)
+## Authors
+[Wesley Bryie](https://wesbryie.com)
+Original Author: [Thomas Boerger](https://github.com/tboerger)

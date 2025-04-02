@@ -1,23 +1,8 @@
 ---
-- name: Download repo key
-  ansible.builtin.shell:
-    cmd: "curl -sSL https://syncthing.net/release-key.gpg | gpg --dearmor --output {{ syncthing_keyring }}"
-    creates: "{{ syncthing_keyring }}"
-  tags:
-    - syncthing
-
-- name: Add apt repository
-  ansible.builtin.apt_repository:
-    repo: "deb [arch={{ syncthing_arch }} signed-by={{ syncthing_keyring }}] https://apt.syncthing.net/ syncthing stable"
-    filename: syncthing
-    update_cache: True
-    state: present
-  tags:
-    - syncthing
-
 - name: Install required packages
   loop:
     - syncthing
+    - syncthing-tools # fedora package claiming server tools, include just in case
   ansible.builtin.package:
     name: "{{ item }}"
     state: present
