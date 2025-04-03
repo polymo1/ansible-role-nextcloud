@@ -1,6 +1,6 @@
 # syncthing
 
-Ansible role to install and configure syncthing. Fork of rolehippie/syncthing
+Ansible role to install and configure syncthing. Fork of github.com:rolehippie/syncthing
 
 ## Table of content
 
@@ -107,5 +107,5 @@ syncthing_keyring: /usr/share/keyrings/syncthing-archive-keyring.gpg
 Apache-2.0
 
 ## Authors
-[Wesley Bryie](https://wesbryie.com)
+[Wesley Bryie](https://wesbryie.com), [sr.ht](https://sr.ht/~polymo1)
 Original Author: [Thomas Boerger](https://github.com/tboerger)
